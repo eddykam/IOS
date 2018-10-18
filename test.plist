@@ -1,36 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>compileBitcode</key>
-	<true/>
-	<key>manifest</key>
-	<dict>
-		<key>appURL</key>
-		<string>https://58.60.60.252:8090/staic/appidc.ipa</string>
-		<key>displayImageURL</key>
-		<string>https://58.60.60.252:8090/static/idc.png</string>
-		<key>fullSizeImageURL</key>
-		<string>https://58.60.60.252:8090/static/idc.png</string>
-	</dict>
-	<key>method</key>
-	<string>ad-hoc</string>
-	<key>provisioningProfiles</key>
-	<dict>
-		<key>com.jfapp.JFAODIAPP8.0</key>
-		<string>Distribution</string>
-	</dict>
-	<key>signingCertificate</key>
-	<string>iPhone Distribution</string>
-	<key>signingStyle</key>
-	<string>manual</string>
-	<key>stripSwiftSymbols</key>
-	<true/>
-	<key>teamID</key>
-	<string>3X8UFBQ4LV</string>
-	<key>thinning</key>
-	<string>&lt;thin-for-all-variants&gt;</string>
-</dict>
+ <dict>
+  <key>items</key>
+  <array>
+   <dict>
+    <key>assets</key>
+    <array>
+     <dict>
+      <key>kind</key>
+      <string>software-package</string>
+      <key>url</key>
+      <string>https://58.60.60.252:8090/staic/appidc.ipa</string>
+     </dict>
+     <dict>
+      <key>kind</key>
+      <string>display-image</string>
+      <key>needs-shine</key>
+      <true/>
+      <key>url</key>
+      <string>http://www.dafuai.com/200.png</string>
+     </dict>
+     <dict>
+      <key>kind</key>
+      <string>full-size-image</string>
+      <key>needs-shine</key>
+      <true/>
+      <key>url</key>
+      <string>http://www.dafuai.com/200.png</string>
+     </dict>
+    </array>
+    <key>metadata</key>
+    <dict>
+     <key>bundle-identifier</key>
+     <string>com.jfapp.JFAODIAPP8.0.dafuai</string>
+     <key>bundle-version</key>
+     <string>2.0</string>
+     <key>kind</key>
+     <string>software</string>
+     <key>subtitle</key>
+     <string>机房2.0</string>
+     <key>title</key>
+     <string>机房2.0</string>
+    </dict>
+   </dict>
+  </array>
+ </dict>
 </plist>
 
 
